@@ -31,7 +31,7 @@ function Hero() {
             that resonate with audiences and build memorable brand identities.
           </p>
           <div className="text-[14px] sm:text-[16px] w-full sm:w-[20%] sm:h-[18vh] flex items-end justify-end">
-            <Link className="whitespace-nowrap" to="/contact">
+            <Link className="whitespace-nowrap border-b-[1.6px] leading-[14px]" to="/contact">
               LET'S CONNECT{" "}
               <i
                 className="ri-arrow-right-line"
@@ -42,11 +42,11 @@ function Hero() {
         </div>
       </div>
 
-      <div className="py-8 relative max-w-7xl mx-auto">
+      <div className="py-8 relative max-w-7xl w-full mx-auto">
         <img
           src={background}
           alt="Artistic rebel background"
-          className="w-[94vw] xl:max-w-[1200px]"
+          className="w-[164vw] xl:max-w-[1160px] relative left-[-6%] top-0"
           loading="eager"
         />
         <img
@@ -58,13 +58,13 @@ function Hero() {
         <img
           src={brandIdentity}
           alt="Brand Identity Design Sticker"
-          className="absolute top-2 w-[14vw] xl:w-[162px] left-[18.5%] translate-x-0 translate-y-0"
+          className="absolute top-5 sm:top-2 w-[14vw] xl:w-[162px] left-[18.5%] translate-x-0 translate-y-0"
           loading="lazy"
         />
         <img
           src={uiUx}
           alt="UI/UX Design Sticker"
-          className="absolute top-[46%] left-[7%] w-[16vw] xl:w-[224px] translate-x-0 translate-y-[-10%]"
+          className="absolute top-[46%] left-[7%] w-[17vw] xl:w-[224px] translate-x-0 translate-y-[-10%]"
           loading="lazy"
         />
         <img
@@ -76,13 +76,13 @@ function Hero() {
         <img
           src={videoEditing}
           alt="Video Editing Sticker"
-          className="absolute top-[30%] sm:top-[20%] left-[68.5%] w-[12vw] xl:w-[144px] translate-y-[-22%] sm:translate-y-0"
+          className="absolute top-[30%] sm:top-[20%] left-[68.5%] w-[14vw] xl:w-[144px] translate-y-[-22%] sm:translate-y-0"
           loading="lazy"
         />
         <img
           src={printDesign}
           alt="Print Design Sticker"
-          className="absolute top-[40%] sm:top-[32%] left-[86%] lg:left-[81%] w-[14vw] lg:w-[214px]"
+          className="absolute top-[40%] sm:top-[32%] left-[83%] lg:left-[81%] w-[18vw] lg:w-[214px]"
           loading="lazy"
         />
         <img
