@@ -82,7 +82,7 @@ function Hero() {
         <img
           src={printDesign}
           alt="Print Design Sticker"
-          className="absolute top-[40%] sm:top-[32%] left-[83%] lg:left-[81%] w-[18vw] lg:w-[214px]"
+          className="absolute top-[40%] sm:top-[32%] left-[82%] lg:left-[80%] w-[18vw] lg:w-[214px]"
           loading="lazy"
         />
         <img

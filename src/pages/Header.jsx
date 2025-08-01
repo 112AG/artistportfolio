@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <div className='flex justify-between items-center py-4 max-w-6xl mx-auto'>
-      <img src={logo} alt="logo" className='h-14'/>
-      <ul className='flex gap-6'>
+    <div className='w-full lg:max-w-6xl lg:mx-auto flex flex-col sm:flex-row justify-between items-center py-4 px-2'>
+      <img src={logo} alt="logo" className='h-14 mb-2 sm:mb-0'/>
+      <ul className='flex flex-wrap sm:flex-nowrap gap-4 sm:gap-6 justify-center'>
         <li>
           <NavLink 
             to="/about"

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @keyframes scrollRight {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -21,4 +22,27 @@
 }
 .animate-scroll-right-slow {
   animation: scrollRightSlow 60s linear infinite;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/font/MaisonNeue-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('./font/MaisonNeue-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('./font/MaisonNeue-BookItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+body {
+  font-family: 'Maison Neue', Arial, sans-serif;
+  font-weight: bold;
 }
