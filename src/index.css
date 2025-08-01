@@ -24,25 +24,35 @@
   animation: scrollRightSlow 60s linear infinite;
 }
 
+
+
 @font-face {
-  font-family: 'Maison Neue';
-  src: url('/font/MaisonNeue-Bold.otf') format('opentype');
+  font-family: 'MaisonNeue';
+  src: url('/MaisonNeue-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Presser';
+  src: url('/presser-bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Maison Neue';
-  src: url('./font/MaisonNeue-Book.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Maison Neue';
-  src: url('./font/MaisonNeue-BookItalic.otf') format('opentype');
-  font-weight: normal;
-  font-style: italic;
-}
+
 body {
-  font-family: 'Maison Neue', Arial, sans-serif;
+  font-family: 'Presser', Arial, sans-serif;
   font-weight: bold;
+}
+
+.font-presser-bold {
+  font-family: 'Presser', Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-maisonneue-black {
+  font-family: 'MaisonNeue', Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

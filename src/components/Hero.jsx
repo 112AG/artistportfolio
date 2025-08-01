@@ -14,24 +14,24 @@ function Hero() {
   return (
     <div>
       <div className="w-full max-w-6xl mx-auto">
-        <h1 className="w-full break-words text-center font-extrabold leading-tight text-[48px] sm:text-[72px] md:text-[104px] lg:text-[154px]">
+        <h1 className="w-full break-words text-center font-extrabold leading-tight text-[30px] xs:text-[22px] sm:text-[53px] md:text-[62px] lg:text-[84px] xl:text-[94px] whitespace-nowrap">
           ART DIRECTOR
         </h1>
         <div className="flex gap-6 lg:gap-12 flex-col sm:flex-row justify-center items-center">
-          <p className="text-[14px] sm:text-[16px] w-full sm:w-[40%]">
+          <p className="text-[14px] sm:text-[14px] w-full sm:w-[40%] font-maisonneue-black">
             With 6+ years of experience and 100+ brands globally, I create
             unique, trend-driven designs across branding, advertising, web, and
             packaging. From Mumbai, Kolkata, Varanasi, and Delhi to Ahmedabad,
             my journey shapes designs that captivate and exceed expectations.
           </p>
-          <p className="text-[14px] sm:text-[16px] w-full sm:w-[40%]">
+          <p className="text-[14px] sm:text-[16px] w-full sm:w-[40%] font-maisonneue-black">
             Based in Ahmedabad, I work as an Assistant Design Manager at ADZ
             Network Media, a multinational design agency in Oman. I create
             impactful designs across branding, advertising, UI/UX, and packaging
             that resonate with audiences and build memorable brand identities.
           </p>
           <div className="text-[14px] sm:text-[16px] w-full sm:w-[20%] sm:h-[18vh] flex items-end justify-end">
-            <Link className="whitespace-nowrap border-b-[1.6px] leading-[14px]" to="/contact">
+            <Link className="whitespace-nowrap border-b-[1.6px] leading-[14px] font-maisonneue-black" to="/contact">
               LET'S CONNECT{" "}
               <i
                 className="ri-arrow-right-line"

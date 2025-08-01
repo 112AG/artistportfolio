@@ -27,7 +27,7 @@ const clientOverviewImages = [
 function ClientOverview() {
   return (
     <div className="w-full max-w-6xl mx-auto pb-24 lg:pb-[322px]">
-      <h1 className="w-full break-words text-center font-extrabold leading-tight text-[22px] sm:text-[18px] md:text-[32px] lg:text-[56px] text-[#EEE6E2] mb-8">
+      <h1 className="w-full break-words text-center font-extrabold leading-tight text-[22px] sm:text-[18px] md:text-[32px] lg:text-[56px] text-[#EEE6E2] mb-8 font-presser-bold">
         CLIENT OVERVIEW
       </h1>
 
@@ -54,7 +54,7 @@ function ClientOverview() {
           <p className="text-center font-bold text-[24px] md:text-[34px] lg:text-[clamp(28px,1,8vw,54px)] leading-[22px] sm:leading-8 text-[#0A0A0A] mb-4 sm:mb-8 whitespace-normal break-words px-1">
             I AM AN ART DIRECTOR WITH <br/> A PASSION OF CREATIVE <br/> INNOVATION
           </p>
-          <div>
+          {/* <div>
  
             <h2 className="absolute top-58 lg:top-58 z-20 left-28 lg:left-18  text-black font-extrabold text-xl sm:text-6xl lg:text-8xl rotate-[18deg]">
               06+
@@ -80,7 +80,7 @@ function ClientOverview() {
               PROJECT <br />
               COMPLETED
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
