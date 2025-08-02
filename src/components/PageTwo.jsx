@@ -70,7 +70,7 @@ const repeatImages = (arr, times = 2) => Array(times).fill(arr).flat();
 function PageTwo() {
   return (
     <div className="w-full max-w-7xl mx-auto overflow-hidden py-18">
-      <h1 className="w-full break-words text-center font-extrabold leading-tight text-[32px] sm:text-[48px] md:text-[72px] lg:text-[104px] text-[#EEE6E2] mb-8">
+      <h1 className="w-full break-words text-center font-extrabold leading-tight text-[30px] xs:text-[22px] sm:text-[53px] md:text-[62px] lg:text-[84px] xl:text-[94px] text-[#EEE6E2] mb-8">
         WORK WITH
       </h1>
       <div className="space-y-2 sm:space-y-6">

@@ -17,7 +17,7 @@ function Hero() {
         <h1 className="w-full break-words text-center font-extrabold leading-tight text-[30px] xs:text-[22px] sm:text-[53px] md:text-[62px] lg:text-[84px] xl:text-[94px] whitespace-nowrap">
           ART DIRECTOR
         </h1>
-        <div className="flex gap-6 lg:gap-12 flex-col sm:flex-row justify-center items-center">
+        <div className="flex gap-6 lg:gap-12 flex-col sm:flex-row justify-center items-start pt-6">
           <p className="text-[14px] sm:text-[14px] w-full sm:w-[40%] font-maisonneue-black">
             With 6+ years of experience and 100+ brands globally, I create
             unique, trend-driven designs across branding, advertising, web, and
